@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # product class
-class product(models.Model):
+class Product(models.Model):
 	title = models.CharField(max_length=200)
 	url = models.URLField()
 	pub_date = models.DateField()
